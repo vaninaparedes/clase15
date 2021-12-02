@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@700&display=swap');
+
+
+nav img{
+    width: 100px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 87, 127);  
+}
+.noticias{
+    width: 400px;  
+}
+.bg-rose{
+    background-color: rgb(255, 87, 127); 
+
+}
+.img-footer{
+    width: 25px;
+}
+.imgMain{
+    width: 500px ;
+}
+.tituloGrilla{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rosybrown;
+
+}
+*{ 
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 1.5rem;
+}
+
+html{
+    font-size: 62.5%;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.grid{
+    width: auto;
+    display: grid;
+}
+
+
+body{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;;
+    align-items:center;
+    background-color: whitesmoke ;
+}
+
+.logomenu{
+    width: 100px;
+}
+.scale:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 2s;
+}
+
+.menu{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.menu>li>a{
+    color: rgb(255, 87, 127);
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.menu>li>a:hover{
+    color: rgb(255, 136, 75);
+}
+.menu>li>a:active{
+    text-decoration: underline;
+}
+.active{
+    text-decoration: underline;
+}
+.menu>li>ul{
+    position: absolute;
+    display: none;
+}
+.menu>li>ul>li{
+    display: block;
+}
+.menu>li>ul:hover>ul{
+    display: none;
+}
+.titulo{
+    padding: 10px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem ;
+    font-weight: bolder;
+    color: rgb(255, 136, 75);
+}
+.titulo>h1>img{
+    width: 1350px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 87, 127);  
+    padding: 10px; 
+    text-align: center; 
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rosybrown;
+    padding: 10px;
+}
+
+.noticias{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.noticias>article{
+    width: 50%;
+}
+.noticias>article>p{
+    display: flex;
+    color: rgb(18, 15, 16);
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 2.5em;
+    text-align: center;
+    justify-content: center;
+}
+.noticias>article>h2>img{
+    width: 400px;
+}
+
+.noticiasimagenes{
+    display: flex;
+    align-items: center;
+}
+.noticiasimagenes>a>img{
+    width: 270px;
+}
+
+.casatroye{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.casatroye>p{
+    display: flex;
+    color: rgb(18, 15, 16);
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 2.5em;
+    text-align: center;
+}
+.textlightblue{
+    color: rgb(205, 255, 252);
+    background-color: rgb(255, 136, 75);
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(255, 87, 127);
+    padding: 10px;
+}
+
+.tabla{
+    color: rgb(18, 15, 16);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contacto{
+    color: rgb(18, 15, 16);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.contenedor{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(5, auto);
+}
+.contenedorbeauty{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+}
+.grid{
+    width: 50%;
+    display: grid;
+    margin-left: 25%;
+}
+.template-columns-row{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+
+
+#encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+#encabezado nav ul li a{
+    font-size: 0.8em;
+}
+
+#encabezado img{
+    width: 80px;
+}
+.box h2{
+   width: 350px;
+}
+
+.box h1 img{
+    width: 100%;
+
+}
+.main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+}
+.main p{
+    padding: 10px;
+    width: 350px;
+}
+#article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.pie{
+    text-align: center;
+    width: 99%;
+}
+.fotolife{
+    width: 300px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.tendencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tendencias>article>p{
+    display: flex;
+    width: 70%;
+    margin-left: 10%;
+    color: rgb(18, 15, 16);
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 2em;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 768px){
+    #encabezado{
+        display: flex;
+        justify-content: space-between;
+        width: 99%;
+    }
+    #encabezado nav ul li a{
+        font-size: 1em;
+    }
+    #encabezado img{
+        width: 70px;
+    }
+    .box h1 img{
+        width: 99%;
+    }
+    .box h2{
+        width: 99%;
+     }
+     .main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, auto);
+        grid-gap: 10px;
+    }
+    .main p{
+        padding: 10px;
+    }
+    #article{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 10px;
+    
+    }
+    .pie{
+        justify-content: end;
+        width: 99%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    #encabezado img{
+        width: 90px;
+    }
+    #encabezado nav ul li a{
+        font-size: 1.2em;
+    }
+    #article{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 5px;
+    }
+}
